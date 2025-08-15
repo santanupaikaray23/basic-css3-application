@@ -75,3 +75,16 @@ Advantages of css:
 5. Multiple device campatibility
 6. Global webstandards
 
+Selectors:
+---------------
+There are two types of selector
+1. Combinator selector
+4 different Combinator
+ Descendant Selector(space)
+ Child Selecter(>)
+ Adjacent Sibling Selector(+)
+ General sibling Selecter
+
+ 
+
+
