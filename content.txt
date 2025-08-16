@@ -85,6 +85,48 @@ There are two types of selector
  Adjacent Sibling Selector(+)
  General sibling Selecter
 
- 
+ comments
+ ----------
+ Will help you to comment your code.
+ Syntax : /* Commented code */
+
+ Colors:
+ -----------
+ Will apply colors to your elements.
+
+4 ways to apply Colors
+
+1 . Colors name
+2. HTML5 colors names
+3. Hexadecimal colors
+4. RGB - RED, GREEN, BLUE
+
+Background-image
+------------------
+Sets tha background image for your element.
+
+repeat-x = repeats the background-image horizontally.
+repeat-y = repeats the background-image vertically.
+
+Fonts
+------
+Will help you to set the font properties for our elements.
+
+Font-Family - Used to change the face of the font.
+
+Font-style - Property used to make font italic or oblique.
+
+Font-varient - Used to create small CAPS effect.
+
+font-weight - Help us to increase or decrease how bold or light  the font 
+appears.
+
+font-size - Helps us to increase or decrease 
+
+
+
+
+
+
 
 
