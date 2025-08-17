@@ -123,6 +123,35 @@ appears.
 
 font-size - Helps us to increase or decrease 
 
+CSS Units:
+-------------
+1. Absolute Units
+a. Pixels (px)
+b. Inches (in)
+c. Centimeters(cm)
+d. Millimeter(mm)
+e. Points(pt)
+
+2. Relative Units
+a. Percentage(%)
+b. Font-sizes(em & rem)
+c. Charcter-size(ex & ch)
+d. Viewport dimensions(vw & vh)
+e. Viewport max(vmax)
+f. Viewport maximum(vmax)
+
+Relative Units are based on
+-------------------------------
+1. The parent dimensions(%)
+2. The currently declared  font-Attribute(em, rem, ex, ch)
+3. The Viewport dimensions(vh,vw,vmin,vmax)
+
+Viewport : User's Visilbe are of the webpage 
+
+video completed :12
+
+
+
 
 
 
