@@ -143,14 +143,56 @@ f. Viewport maximum(vmax)
 Relative Units are based on
 -------------------------------
 1. The parent dimensions(%)
-2. The currently declared  font-Attribute(em, rem, ex, ch)
+2. The currently declared  font-Attributes(em, rem, ex, ch)
 3. The Viewport dimensions(vh,vw,vmin,vmax)
 
-Viewport : User's Visilbe are of the webpage 
-
-video completed :12
+Viewport : User's Visilbe area of the webpage 
 
 
+ex -  Relative to the x-height of the current font
+
+x-height is roughly the height of lower case letter
+
+ch -  Relative to the width of "0" 1ch == 8px
+
+em - Relative to the font-size of the parent element
+
+rem - relative to the font-size of the root element
+
+Note: In almost every browser 16px is the standard for font.
+
+rem : User can control the font-size
+
+1rem = 16 px;
+
+vh - Viewport height
+1vh - is equal to 1% of the current viewport height
+vw - viewport width
+1vw - is equal to 1 % of the current viewport width
+vmin- Uses the ratio of smallest size. That is if the height of the browser
+windows is less than it's width 1vmin will be equivalent of 1vh
+vmax- Uses the ratio of largest size. so if 1vmax is equivalent to 1vw if viewport is wider 
+than it is tall.If the browser is taller than it is wide 1max is equivalent to 1vh.
+
+Absolute Units:
+-----------------
+The absolute units are fixed and length expressed in any of these exactly the same size.
+
+1. Centimeter(cm)(1cm = 37.8px)
+---------------------------------
+use  for "Print" media type style sheet
+2.Millimeter(mm)(1mm=0.1cm=3.78px)
+----------------------------------------
+1em == 16px ==0.17in == 12pt == 1pc == 4.2 mm == 0.42cm
+-------------------------------------------------------------
+Inches(in) (1in == 96px ==2.54cm)
+-------------------------------------------
+Incjes is same as Centimeter and will be use for "Print" media
+Pixel (px)
+---------------------
+It is most usable and considered measure in browser.
+
+video completed :14
 
 
 
