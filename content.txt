@@ -192,7 +192,60 @@ Pixel (px)
 ---------------------
 It is most usable and considered measure in browser.
 
-video completed :14
+Border:
+---------
+Allows us to specify style, width and color of an elements border.
+
+Border-styles
+---------------
+Specifies what kind of borders to Display
+
+dotted - define dotted border
+dashed - define a dashed border
+solid - define a solid border
+double - define a double border
+groove - Define a 3D grooved border, depends on background color.
+ridge - Defines a 3D ridge border, depends on background color
+outset - Define a 3D outset border, depends on background color.
+none - Define no border
+hidden - Define hidden border
+
+Border-style can have one to four values
+-top border
+-right border
+-bottom border
+-left border
+
+Border-width(will not work without border style)
+--------------------------------------------------------
+Specifies the width of our border
+
+-We can specify width using specific size.
+-we can use predefined values thin, medium,
+thick
+-Can have one to four values top, right, bottom, left
+
+Border Color:
+----------------
+is Used to set the color of the four border
+
+Border-Sides:
+----------------
+Used to specify border for each Sides.
+
+Border-Shorthand:
+-----------------
+To shorten the code , It is possible to specify the indivisual border properties in one properties.
+
+border - shorthand for the following indivisual properties.
+
+-Border Width
+-Border style
+-Border Color
+
+
+
+video completed :16
 
 
 
