@@ -243,9 +243,102 @@ border - shorthand for the following indivisual properties.
 -Border style
 -Border Color
 
+Outline
+------------
+An Outline is a line that is drawn aroung elements outside the border to make the element stand
+outside.
+Outline is not part of elements dimensions
+Elements totally width and height is not affected 
+width
+outline-style : Sets the style of the outline
+outline-color : Set the color of an outline
+Outline-width : Sets the width of the outline
+Outline-offset : Specifies the space between outline and border, space is transparent.
+Outline : short hand for style, width, clor.
+
+Width and Height:
+---------------------
+In order to set the width and height of an element correctly in all browser we should know 
+how that box model works.
+
+Total Element Width:
+--------------------
+width+ left padding+ right padding + left border + right border + right margin + left margin
+
+Total Element height:
+--------------------------
+height + top padding +bottom padding + top border +bottom border+ top margin +bottom margin
+
+HTML Lists:
+----------------
+Unordered lists<ul>
+Odered lists<ol>
+
+CSS Lists:
+----------
+1. Can set different list item markers for order and unorder list.
+2. Set an image
+3. Add background color to list and list items.
+
+Display
+---------
+Specifies how an element is displayed.
+ Every element has a default display value depending on what type of element it is.
+ 
+ The default display value for elements is block or inline.
+
+ Block-Level Elements :
+ ------------------------
+ Always starts with new line.
+ Takes up full width
+
+ div, h1-h6, p, form, header, footer, section
+
+ Inline Element
+ -------------------
+ Don't start with new line
+ takes up as much width as necessary
+
+ <span>,<a>,<img>
+
+ display:none
+ -------------
+ To hide and show elements without deleting or recreating them
+
+ position
+ ---------
+ Specifies the type of positioning method used for an element.
+
+ 1. Static
+ 2. Relative
+ 3. Fixed
+ 4. Absolute
+ 5. Sticky
+
+ 1. Static:
+ -----------------
+ HTML elements are positioned static by default.
+
+ Static positioned elements are not affected by the top, bottom, left, right.
+
+ Always position according to the normal flow of page.
+
+ Document flow:
+ --------------
+ Order of code elements.
+ 1.display
+ 2.position
+ 3.float
+
+top-margin-top
+------------------------
+top - is a position Property
+it is used with position Property relative and absolute.
+margin-top - It is elements own property.
 
 
-video completed :16
+
+video completed :17(part-1)
 
 
 
