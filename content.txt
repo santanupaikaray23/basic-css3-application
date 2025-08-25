@@ -377,9 +377,82 @@ none : The element doesn't float, This is a default option.
 
  Note : Float property can be used to wrap text around images.
  
+Gradients:
+------------
+Gradients displays the combination of two or more colors.
 
+types
+-------
+Linear Gradient
+Radial Gradient
 
-video completed :19
+Linear Gradient(top-to-bottom)-default
+---------------------------------------
+Used to arrange two or more colors in linear format.
+
+Background-Image is the one which helps with Gradients.
+
+background-color : red /*cab treated like fallback */
+
+background-image: linear - Gradient(crimson, white)
+
+1st way:
+-------
+background: red;
+background: linear-Gradient(#FF0000, Yellow);
+
+2nd way:
+--------
+background-color: red /*cab treated like fallback*/
+background-Image: linea-Gradient(crimson, white)
+
+background-Position : top left
+background: red
+background: linear-gradient(#FF0000, Yellow)
+
+Linear Gradient:
+------------------
+1. Most common and Useful type
+2. Gradient axis can go left-to-right or top-to-bottom
+3. To make it left to right, you pass a additional parameter which start with word "to right"
+4. To Syntax will work for corners for instance if you wanted the axis of the gradient to start at the bottom
+left corner and go to the top right corner you could say "top right"
+
+Radial Gradient:
+-----------------
+It will start at a single point and emanate outwards.
+The default is - first color which starts in a center of the element and fade to the end color towards
+edge of the element.
+To create radial gradient we must also define at least two color stops.
+radial-gradient(Position, start color, ...., last color)
+By default the shape is ellipse.
+
+Transistions:
+--------------
+It allows you to change property values smoothly.
+
+transition
+
+transition-delay
+transition-duration
+transition-property
+transistion-timely-function
+
+How to use
+------------
+1. CSS property you want to add an effect to
+2. duration of the effect
+
+Transition-timely-function
+----------------------------
+Specifies the speed curve of the transistion effect.
+
+ease - Specifies a transistion effect with a slow start then moves first and ends slowly(default)
+liner - Specifies transition effect with same speed from start to end
+ease-in - Specifies transistion effect with slow start
+ease-outlineease-in-out - Specifies transistion effect with slow end
+ease-in-out - Specifies transistion effect with slow start and end
+video completed :20
 
 
 
