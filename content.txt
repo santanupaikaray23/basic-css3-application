@@ -309,6 +309,8 @@ Specifies how an element is displayed.
  ---------
  Specifies the type of positioning method used for an element.
 
+ positions your element with help of top,left,bottom,right
+
  1. Static
  2. Relative
  3. Fixed
@@ -335,12 +337,49 @@ top-margin-top
 top - is a position Property
 it is used with position Property relative and absolute.
 margin-top - It is elements own property.
+Position : relative:
+---------------------
+HTML elements are positioned according to the properties top, right, bottom, left.
+
+Position : absolute
+---------------------
+Completely removes the element from the document flow and everything else render as if that
+absolute element didn't even exist.
+
+Absolutely positions an element inside of some parent container that it can reference 
+
+Position: fixed:
+------------------
+Very similar to absolute position with some caveats.
+
+Always fixed based on the entire HTML Element AND It has nothing to do with parents.
+
+Position : Sticky
+-------------------
+Combination of relative and fixed.
+
+Float:
+----------
+Specifies how an element should float.
+
+It is used for positioning and formatting.
+
+for e.g let an image float left to the text in a container.
+
+It can have following properties
+
+Left : The element floats to the left of this container.
+
+right : The element floats to right of its container.
+
+none : The element doesn't float, This is a default option.
+ inherit : The element inherits the float value of it's parent
+
+ Note : Float property can be used to wrap text around images.
+ 
 
 
-
-video completed :17(part-1)
-
-
+video completed :19
 
 
 
